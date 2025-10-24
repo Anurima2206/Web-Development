@@ -1,0 +1,25 @@
+@media screen and (max-width: 815px){
+    nav{
+        display:inline-flex;
+        flex-direction: column;
+    }
+    .nav1{
+        display: inline-flex;
+        flex-direction: row;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+    }
+    .types img{
+        width: 95px;
+        height: 85px;
+    }
+    .types-items{
+        width: 10vw;
+        height: 90px;
+    }
+    .slide p{
+        font-size: 20px;
+    }
+}

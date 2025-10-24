@@ -1,0 +1,48 @@
+body{
+    background-color: beige;
+}
+nav{
+    padding-top: 10px;
+}
+nav span{
+    margin-left: 47vw;
+    height: 40px;
+    color: black;
+    background-color: greenyellow;
+    border: 2px solid red;
+    border-radius: 10%;
+    font-size: x-large;
+}
+.container{
+    background-color: grey;
+    width: 40vw;
+    height: 75vh;
+    margin-top: 20px;
+    margin-left: 27vw;
+    padding: 15px 30px;
+    border: 2px solid rgb(31, 30, 30);
+    text-align: center;
+}
+#height{
+    
+    background-color: rgb(192, 182, 182);
+}
+#weight{
+    
+    background-color: rgb(192, 182, 182);
+}
+#result {
+  background-color: rgb(192, 182, 182);
+}
+#weight-guide{
+    border: 1.5px solid black;
+    border-radius: 2%;
+    margin-left:140px ;
+    width:220px;
+    margin-top: 14px;
+    padding: 3px;
+    background-color: rgb(192, 182, 182);
+}
+button{
+    border-radius: 10%;
+}
