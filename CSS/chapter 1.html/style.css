@@ -1,0 +1,16 @@
+/* #head{
+    background-color: blueviolet;
+} */
+.red{
+    background-color: red;
+    color: white;
+}
+#head{
+    background-color: chocolate;
+}
+.one{
+    color: rgb(4, 98, 4);
+}
+.two{
+    background-color: aqua;
+}

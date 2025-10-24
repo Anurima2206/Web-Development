@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6 PS</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        }
+        ul{
+            background-color: black;
+            color: white;
+           padding:20px;
+           display: flex;
+           justify-content: space-between;
+        }
+        li{
+            padding: 0 10px;
+            display: inline;
+            list-style: none;
+            
+        }
+        .img{
+            /* float: right; */
+            width: 100vw;
+            height: 40vh;
+            background-image: url(hotellll.jpg);
+        }
+        
+        .container{
+            display: flex;
+            justify-content: space-around;
+        }
+        .box1{
+            height: 40vh;
+            width: 20vw;
+            /* background-color: blueviolet; */
+            background-image: url(settings.png);
+            border: 2px solid black;
+        }
+        
+
+        .im1{
+            height: 50px;
+            width: 50px;
+            background-image: url(settings.png);
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <nav>
+            <ul>
+            <div class="im1"></div>
+            <div class="im2">
+            
+                <li>Home</li>
+                <li>Contact</li>
+                <li>About</li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+    <div class="img"></div>
+    <div class="container">
+        <div class="box1">1st Floor</div>
+        <div class="box1">2nd Floor</div>
+        <div class="box1">3rd Floor</div>
+    </div>
+</body>
+</html>

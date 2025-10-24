@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        ul{
+            background-color: black;
+            height: 10vh;
+            color:white;
+            display: grid;
+            grid-template-columns:50px 180px ;
+            grid-template-rows:50px auto; 
+            justify-content: space-between;
+        }
+        .im1{
+            /* height: 50px;
+            width: 50px; */
+            background-image: url(settings.png);
+        }
+        .im2{
+            list-style: none;
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .img{
+            width: 100vw;
+            height: 43vh;
+            background-image: url(hotellll.jpg);
+        }
+        .container{
+            display: grid;
+            height:34vh;
+            /* background-color: blue; */
+            grid-template-columns: 30vw 30vw 30vw;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+           <ul>
+           <div class="im1"></div>
+           <div class="im2">
+           
+               <li>Home</li>
+               <li>Contact</li>
+               <li>About</li>
+           </ul>
+       </div>
+       </nav>
+   </header>
+   <div class="img"></div>
+   <div class="container">
+       <div class="box1" style="background-color: blue;">1st Floor</div>
+       <div class="box1" style="background-image: url(settings.png);">2nd Floor</div>
+       <div class="box1" style="background-image: url(settings.png);">3rd Floor</div>
+   </div>
+</body>
+</html>
